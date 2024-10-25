@@ -23,6 +23,6 @@ public class BinarySearch {
 				start = mid + 1;
 			}
 		}
-		return -1;
+		return -1; /* Now high < low, key not found */
 	}
 }
